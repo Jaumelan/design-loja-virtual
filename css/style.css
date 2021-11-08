@@ -1,0 +1,598 @@
+@font-face {
+    font-family: "Palatino";
+    src: url(../font/pala.woff2);
+}
+
+@font-face {
+    font-family: "Futura";
+    src: url(../font/Futura\ Lt\ Light.woff2);
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    width: 1903px;
+    height: 190.5px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#header-sup {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 1523px;
+    font-family: "Palatino";
+    
+}
+
+.esquerda-head {
+    width: 533px;
+    height: 22px;
+
+}
+
+#header-sup img {
+    width: 24px;
+    height: 24px;
+    margin: 0px 5px;
+}
+
+.segundo-head {
+    width: 160px;
+    height: 22px;
+}
+
+.terceiro-head {
+    width: 125.3px;
+    height: 22px;
+}
+
+#nome-busca {
+    width: 1523px;
+    height: 61.5px;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-color: #fbf2f7;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    width: 469px;
+    height: 37px;
+    cursor: pointer;
+    text-decoration: none;
+    vertical-align: baseline;
+    font-size: 28px;
+    font-family: "Palatino";
+    font-weight: 400;
+}
+form {
+    width: 286px;
+    height: 40px;
+    border: 1px solid #111111;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #ffffff;
+    font-size: 16px;
+}
+
+form img {
+    width: 14px;
+    height: 14px;
+    margin-left: 20px;
+}
+
+input {
+    width: 60%;
+    height: 38.4px;
+    padding: 1% 6%;
+    margin: 1% 1%;
+    border: none;
+    background-color: #ffffff00;
+    font-size: 16px;
+    
+}
+
+#nome-busca button {
+    width: 95.4px;
+    height: 26px;
+    padding: 6px 7px;
+    border: none;
+    box-sizing:content-box;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    font-family: "Palatino";
+    font-size: 16px;
+}
+
+.usua {
+    width: 26px;
+    height: 26px;
+}
+
+button p {
+    box-sizing: content-box;
+    padding: 0px 7px;
+    width: 41.4px;
+}
+
+.carrinho {
+    width: 23px;
+    height: 27px;
+    cursor: pointer;
+}
+
+#header-inf {
+    display: flex;
+    justify-content: center;
+    width: 1523px;
+    height: 61px;
+    align-items: baseline;
+    font-family: "Futura";
+}
+
+#inf-esq {
+    display: flex;
+    justify-content: flex-start;
+    width: 535px;
+    height: 28px;
+}
+
+.inf-pri {
+    width: 121px;
+    height: 28px;
+    font-size: 13px;
+    
+}
+
+.inf-seg {
+    width: 56px;
+    height: 28px;
+    font-size: 13px;
+    
+}
+
+.inf-ter {
+    width: 68px;
+    height: 28px;
+    font-size: 13px;
+    
+}
+
+.inf-qua {
+    width: 90px;
+    height: 28px;
+    font-size: 13px;
+    
+}
+
+#inf-dir {
+    display: flex;
+    justify-content: flex-end;
+    width: 360px;
+}
+
+.dir-pri {
+    width: 90.7px;
+    height: 17px;
+    font-size: 13px;
+    
+}
+
+.dir-seg {
+    width: 86px;
+    height: 17px;
+    font-size: 13px;
+    
+}
+
+.dir-ter {
+    width: 65px;
+    height: 17px;
+    font-size: 13px;
+    
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.banner-central {
+    height: 548px;
+    width: 980px;
+    margin:0 auto;
+    background-image: url(../img/banner1.jpg);
+    background-repeat: none;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner-central div {
+    width: 569px;
+    height: 240px;
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.natural {
+    background-color: transparent;
+    font-size: 58px;
+    line-height: 1.3em;
+    font-family: "Palatino";
+}
+
+.biscoito {
+    background-color: transparent;
+    width: 312.3px;
+    height: 152.4px;
+    letter-spacing: 0.05em;
+    vertical-align: baseline;
+    font-size: 58px;
+    font-family: "Futura";
+    font-weight: 400;
+
+}
+
+.bota {
+    display: block;
+    
+    width: 150px;
+    height: 150px;
+    padding: 0;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: white;
+    font-size: 13px;
+    text-align: center;
+    font-family: "Futura";
+    margin-top: 50px;
+}
+
+.servicos {
+    width: 980px;
+    display: flex;
+    margin: 40px 0px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.servicos div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.serv-firs img {
+    width: 49px;
+    height: 49px;
+    margin-bottom: 18px;
+
+}
+
+.serv-middle img {
+    width: 61px;
+    height: 68px;
+}
+
+.serv-last img {
+    width: 42px;
+    height: 49px;
+    margin-bottom: 13px;
+}
+
+.serv-firs {
+    width: 299px;
+    height: 203px;
+}
+
+.serv-middle {
+    width: 308px;
+    height: 203.8px;
+    border-left:  1px solid black;
+    border-right: 1px solid black;
+}
+
+.serv-last {
+    width: 305px;
+    height: 203.8px;
+}
+
+.info-ser-pri {
+    font-family: "Palatino";
+}
+
+.serv-reti {
+    font-family: "Futura";
+    font-size: 18px;
+    line-height: 28.8px;
+    word-spacing: 0.05em;
+    font-weight: 400;
+}
+
+.mais-vendidos {
+    font-size: 28px;
+    margin-top: 20px;
+    font-family: "Futura";
+    word-spacing: 0.05em;
+    font-weight: 400;
+}
+
+.vendidos-para {
+    font-family: "Palatino";
+    font-size: 16px;
+    line-height: 1.8em;
+}
+
+.maisvendidos {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 18px;
+}
+
+.maisvendidos figure {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.maisvendidos img {
+    width: 306px;
+    height: 306px;
+}
+
+.maisvendidos h3 {
+    box-sizing: border-box;
+    display: block;
+    line-height: 20px;
+    text-align: center;
+    font-family: "Futura";
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    word-spacing: normal;
+}
+
+.maisvendidos hr {
+    width: 20px;
+}
+
+.maisvendidos p {
+    font-family: "Palatino";
+    font-size: 15px;
+    text-align: center;
+    font-weight: 400;
+    color: #706F6F;
+}
+
+.linha {
+    width: 980px;
+    height: 200px;
+    background: transparent;
+    position: relative;
+}
+
+.bot-ver {
+    position: absolute;
+    cursor: pointer;
+    width: 138px;
+    height: 38px;
+    border: 1px solid rgb(25,25,25);
+    font-family: "Futura";
+    font-size: 13px;
+    line-height: 18.2px;
+    top: 5px;
+    right: 420px;
+    background-color: rgb(245, 239, 239);
+    text-align: center;
+    line-height: 39px;
+    
+}
+
+.linha hr {
+    width: 980px;
+    position: absolute;
+    top: 18px;
+}
+
+.conheca-mais {
+    width: 1523px;
+    height: 880px;
+    position: relative;
+}
+
+.decoration {
+    position: absolute;
+    background-color: #f3f3f5;
+    width: 1523px;
+    height: 408px;
+}
+.titulo h2 {
+    position: absolute;
+    top: 40px;
+    left: 330px;
+    text-align: center;
+    color: rgb(25,25,25);
+    font-family: "Futura";
+    font-size: 28px;
+    word-spacing: 0.05em;
+    font-weight: 400;
+    background: transparent;
+    width: 824px;
+    height: 37px;
+}
+.saborear {
+    position: absolute;
+    top: 170px;
+    left: 261px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 1000px;
+    height: 659px;
+    gap: 8px;
+}
+.conheca-mais figure {
+    width: 322px;
+    height: 322px;
+    position: relative;
+    margin: 0;
+}
+
+.conheca-mais figure img {
+    width: 322px;
+    height: 322px;
+    transition: filter .1s ease-in-out;
+    -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+    filter: grayscale(0%);
+
+}
+
+.conheca-mais figure img:hover {
+    -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+    filter: grayscale(100%); /* FF 35+ */
+
+}
+
+.conheca-mais figure div {
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    width: 100%;
+    visibility: hidden;
+    color: rgb(245, 244, 244);
+    transition: ease-out;
+}
+
+.conheca-mais figure:hover div {
+    position: absolute;
+    top: 48%;
+    text-align: center;
+    width: 100%;
+    visibility: visible;
+    color: rgb(228, 220, 220);
+    opacity: 1;
+    font-family: "Palatino";
+    font-size: 16px;
+    line-height: 22.4px;
+    font-weight: 400;
+}
+
+.last-ver {
+    border: 1px solid rgba(25, 25, 25, 0.7);
+    width: 100px;
+    height: 20px;
+    padding: 8px 16px;
+    font-family: "Palatino";
+    text-align: center;
+    margin-bottom: 50px;
+    box-sizing:content-box;
+}
+
+.last-ver:hover {
+    background-color: rgb(25, 25, 25);
+    color: white;
+}
+
+footer {
+    width: 1523px;
+    height: 584px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fbf2f7;
+}
+
+.footer-sup {
+    display: flex;
+    margin-top: 50px;
+    gap: 80px;
+    justify-content: center;
+}
+
+.footer-sup h4 {
+    font-family: "Futura";
+    line-height: normal;
+    word-spacing: 0.05em;
+    font-weight: 400;
+}
+
+.footer-sup p {
+    font-family: "Palatino";
+    font-size: 15px;
+    line-height: 0.7em;
+    word-spacing: normal;
+    font-weight: 400;
+}
+
+.insira {
+    width: 271px;
+    height: 64px;
+    border: 1px solid #995d7f;
+    display: flex;
+    flex-direction: column-reverse;
+    
+}
+
+.insira div {
+    width: 271px;
+    height: 32px;
+    background-color: #995d7f;
+    text-align: center;
+    color: #ffffff;
+    line-height: 1.7;
+}
+
+.footer-inf {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.redes-sociais img {
+    width: 25px;
+    height: 25px;
+}
+
+.icones-de-redes {
+    display: flex;
+    justify-content: flex-start;
+    gap: 3px;
+    width: 200px;
+}
+
+.redes-sociais {
+    margin: 0;
+}
+
+.footer-inf h4 {
+    font-family: "Futura";
+    line-height: normal;
+    word-spacing: 0.05em;
+    font-weight: 400;
+}
+
+.footer-inf p {
+    font-family: "Palatino";
+    font-size: 15px;
+    line-height: 1.2em;
+    word-spacing: normal;
+    font-weight: 400;
+}

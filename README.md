@@ -1,0 +1,1 @@
+Exercício de criação de um site de loja virtual
